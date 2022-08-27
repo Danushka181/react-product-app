@@ -1,6 +1,6 @@
-import React from 'react';
-import RightPanel from './components/RightPanel';
-// import logo from './logo.svg'; 
+import * as React from "react";
+import RightPanel from "./RightPanel";
+import "./../assets/scss/App.scss";
 
 const App = () => {
   return (
@@ -15,6 +15,6 @@ const App = () => {
       </div>
     </div>
   );
-}
+};
 
 export default App;

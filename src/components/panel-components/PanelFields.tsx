@@ -1,11 +1,9 @@
-import React from "react";
-
-import '../../assets/scss/components/panel-partials/input-wrapper.scss';
+import * as React from "react";
 interface Props {
-  label: string
+  label: string;
 }
 
-export const PanelField = ({label} : Props) => {
+export const PanelField = ({ label }: Props) => {
   return (
     <div className="input-wrapper">
       <div className="input-wrapper__inner">
@@ -16,7 +14,7 @@ export const PanelField = ({label} : Props) => {
           <span className="down-arrow"></span>
           <p className="value-indicator">px</p>
         </div>
-      </div>    
+      </div>
     </div>
-  )
-}
+  );
+};
