@@ -1,0 +1,13 @@
+.dimension-widget {
+  &__inner {
+    .unit-title {
+      font-size: 14px;
+      display: block;
+      color: rgba(#fff, 0.7);
+      margin-bottom: 8px;
+      &--active {
+        color: #dfc592;
+      }
+    }
+  }
+}

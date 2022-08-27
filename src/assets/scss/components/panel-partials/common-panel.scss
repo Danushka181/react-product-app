@@ -1,0 +1,30 @@
+.common-panel {
+  &__body {
+    background-color: #45393b;
+    padding: 20px 15px;
+  }
+  &__body,
+  &__header {
+    border: 1px solid #392d2f;
+  }
+  &__header {
+    padding: 6px 15px 9px;
+    background-color: #403436;
+    span {
+      color: rgba(#fff, 0.5);
+    }
+  }
+
+  .default-widget {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 15px;
+    &--units {
+      background-color: #3f3335;
+      border: 2px solid #392d2f;
+      padding: 15px;
+      border-radius: 3px;
+    }
+  }
+}
