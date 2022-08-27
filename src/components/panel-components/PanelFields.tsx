@@ -3,7 +3,7 @@ interface Props {
   label: string;
 }
 
-export const PanelField = ({ label }: Props) => {
+const PanelField = ({ label }: Props) => {
   return (
     <div className="input-wrapper">
       <div className="input-wrapper__inner">
@@ -18,3 +18,5 @@ export const PanelField = ({ label }: Props) => {
     </div>
   );
 };
+
+export default PanelField;

@@ -1,8 +1,5 @@
-import React from 'react'
-
-import { PanelField } from './PanelFields'
-
-// import '../../assets/scss/components/panel-partials/dimention-widget.scss';
+import * as React from "react";
+import PanelField from "./PanelFields";
 
 const DimensionsWidget = () => {
   return (
@@ -32,7 +29,7 @@ const DimensionsWidget = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default DimensionsWidget
+export default DimensionsWidget;
