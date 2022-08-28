@@ -1,15 +1,22 @@
 .common-panel {
   &__body {
-    background-color: #45393b;
-    padding: 20px 15px;
+    background-color: var(--dark-gray-1);
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+    &.active {
+      transition: all 0.4s ease-in-out;
+      max-height: 1000px;
+    }
   }
   &__body,
   &__header {
-    border: 1px solid #392d2f;
+    border: 1px solid var(--dark-gray);
   }
   &__header {
     padding: 6px 15px 9px;
     background-color: #403436;
+    cursor: pointer;
     span {
       color: rgba(#fff, 0.5);
     }
@@ -21,8 +28,8 @@
     gap: 15px;
     margin-bottom: 15px;
     &--units {
-      background-color: #3f3335;
-      border: 2px solid #392d2f;
+      background-color: var(--dark-gray-2);
+      border: 2px solid var(--dark-gray);
       padding: 15px;
       border-radius: 3px;
     }

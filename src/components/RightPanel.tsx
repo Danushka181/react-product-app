@@ -10,6 +10,7 @@ const RightPanel = () => {
     <div className="right-panel">
       {/* dimension panel */}
       <CommonPanel title={dimensionTitle} childWidget={<DimensionsWidget />} />
+      <CommonPanel title={dimensionTitle} childWidget={<DimensionsWidget />} />
     </div>
   );
 };

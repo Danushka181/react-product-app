@@ -20,7 +20,7 @@ body {
     grid-template-columns: 8fr 350px;
     min-height: 100vh;
     &-right {
-      background: #392d2f;
+      background: var(--dark-gray);
       padding: 5px;
     }
   }

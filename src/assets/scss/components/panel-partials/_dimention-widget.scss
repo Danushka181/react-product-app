@@ -1,12 +1,13 @@
 .dimension-widget {
+  padding: 20px 15px;
   &__inner {
     .unit-title {
-      font-size: 14px;
       display: block;
-      color: rgba(#fff, 0.7);
       margin-bottom: 8px;
+      font-size: 14px;
+      color: rgba(#fff, 0.7);
       &--active {
-        color: #dfc592;
+        color: var(--gold-color);
       }
     }
   }

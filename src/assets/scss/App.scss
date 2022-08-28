@@ -1,4 +1,8 @@
-$bg-color: yellow;
-$border-color: red;
-
+:root {
+  --dark-gray: #392d2f;
+  --dark-gray-1: #45393b;
+  --dark-gray-2: #3f3335;
+  --white: #fff;
+  --gold-color: #dfc592;
+}
 @import "./_index";
